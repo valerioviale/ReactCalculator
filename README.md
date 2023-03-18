@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+Calculator App
+
+This is a simple calculator app built with React. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+Features
+
+    Basic arithmetic operations (+, -, *, /)
+    Clear button to reset the calculator
+    Responsive design for desktop and mobile devices
+
+Getting Started
+
+To get started with this app, follow these steps:
+
+    Clone this repository to your local machine using git clone https://github.com/your-username/calculator.git.
+    Install the necessary dependencies by running npm install.
+    Start the development server by running npm start.
+    Open http://localhost:3000 in your web browser to view the app.
+
+Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+    Fork this repository to your own account.
+    Create a new branch with a descriptive name (git checkout -b my-new-feature).
+    Make your changes and commit them (git commit -am 'Add some new feature').
+    Push your changes to your forked repository (git push origin my-new-feature).
+    Create a new pull request and describe your changes.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
