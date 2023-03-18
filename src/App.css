@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 300px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.equation {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  margin-right: 2px;
+  margin-left: 2px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+
+button:last-child {
+  margin-right: 0;
+}
+
+button:hover {
+  background-color: #23DC3B;
+}
+
+
+.operation {
+  background-color: #DC23C4;
+  color: white;
+}
