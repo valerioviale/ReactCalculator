@@ -1,3 +1,8 @@
+body {
+
+  background-color: #363333;
+}
+
 .App {
   display: flex;
   justify-content: center;
@@ -7,7 +12,7 @@
 
 .calculator {
   width: 300px;
-  background-color: #eee;
+  background-color: #00eeff;
   padding: 20px;
   border-radius: 10px;
 }
