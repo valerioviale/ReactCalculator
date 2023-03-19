@@ -1,4 +1,6 @@
 Calculator App
+You can find the deployed version on Vercel:
+https://calculator-app-valerioviale.vercel.app/
 
 This is a simple calculator app built with React. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 Features
