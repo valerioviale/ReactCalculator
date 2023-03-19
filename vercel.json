@@ -1,11 +1,12 @@
 {
   "version": 2,
   "builds": [
-    { "src": "src/App.js", "use": "@vercel/static-build" },
-    { "src": "server.js", "use": "@vercel/node" }
+    { "src": "package.json", "use": "@vercel/static-build" }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "http://localhost:3000/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+    { "src": "/(.*)", "dest": "/" }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
